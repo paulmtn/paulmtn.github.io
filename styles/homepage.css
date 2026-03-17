@@ -7,6 +7,8 @@ header {
     height: 40px;
     text-align: center;
     border-radius: 50px 50px 0px 0px;
+    border: 1px solid white;
+    border-bottom: none;
 }
 
 body {
@@ -27,7 +29,9 @@ main {
     margin-left: auto;
     flex: 1;
     /* background: linear-gradient(to bottom, var(--gradient-1), var(--gradient-2)); */
-    background: var(--homepage-main-bg);
+    /* background: var(--homepage-main-bg); */
+    background-image: var(--homepage-main-bg);
+    background-repeat: repeat;
 
 }
 
@@ -48,6 +52,8 @@ ul {
 
 h2 {
     margin: 0;
+    border-bottom: 2px ridge white;
+    background-image: var(--homepage-h2-bg);
 }
 
 
@@ -55,7 +61,7 @@ li {
     list-style-type: none;
     height: 20px;
     background: var(--primary);
-    border:5px ridge var(--gradient-1);
+    border-bottom: 2px ridge white;
 }
 
 footer {
