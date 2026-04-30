@@ -1,0 +1,41 @@
+body {
+    color: var(--primary);
+    display: flex;
+    flex-direction: row;
+
+    background-color: #f7f4ef;
+}
+
+.sidebar{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    break-inside: avoid;
+}
+
+.project .caption {
+    margin-bottom: 1rem;
+}
+
+.project img {
+    width: 100%;
+    display: block;
+}
+
+.gallery {
+    columns: 2;
+    padding: 1rem;
+}
+
+h2 {
+    padding: 1rem;
+    margin-top: 0px;
+}

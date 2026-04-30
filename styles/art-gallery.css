@@ -1,0 +1,42 @@
+body {
+    color: var(--primary);
+    display: flex;
+    flex-direction: row;
+
+    background-image: var(--homepage-main-bg);
+    background-repeat: repeat;
+    background-size: 144px 144px;
+}
+
+
+.sidebar{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.painting {
+    break-inside: avoid;
+    padding: 1vw;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.painting img {
+    width: 100%;
+    display: block;
+}
+
+/* .painting .caption {
+    margin-bottom: 1rem;
+} */
+
+.gallery {
+    columns: 2;
+    padding: 1rem;
+    padding-left: 0;
+    column-gap: 1.5vw;
+}
