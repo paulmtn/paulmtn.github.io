@@ -1,4 +1,4 @@
-header {
+/* header {
     margin-right: auto;
     margin-left: auto;
     margin-top: 3vh;
@@ -6,21 +6,82 @@ header {
     width: 1100px;
     height: 40px;
     text-align: center;
-    /* border-radius: 50px 50px 0px 0px; */
     border: 1px solid white;
     border-bottom: none;
+} */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-right: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 16px;
+
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 200vh;
+    min-height: 100vh;
     background-image: var(--homepage-bg);
     background-size: cover;
     image-rendering: pixelated;
+    background-repeat: no-repeat;
 }
 
+li {
+    list-style-type: none;
+    padding-left: 8px;
+}
 
+.top-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 12px;
+}
+
+.bottom-row {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 12px;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.50);
+    border: 2px white dotted;
+}
+
+.box-header {
+    border-bottom: 1px solid white;
+    margin: 6px 8px;
+}
+
+.potd {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 16px 8px 0px 8px;
+}
+
+.potd-title {
+    margin-left: 8px;
+}
+
+.potd-meta {
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.potd-link {
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+/* 
 main {
     width: 1100px;
     display: flex;
@@ -29,8 +90,8 @@ main {
     margin-right: auto;
     margin-left: auto;
     flex: 1;
-    /* background: linear-gradient(to bottom, var(--gradient-1), var(--gradient-2)); */
-    /* background: var(--homepage-main-bg); */
+    background: linear-gradient(to bottom, var(--gradient-1), var(--gradient-2));
+    background: var(--homepage-main-bg);
     background-image: var(--homepage-main-bg);
     background-repeat: repeat;
     background-size: 144px 144px;
@@ -39,7 +100,6 @@ main {
 aside {
     width: 200px;
     border-right: 1px solid;
-    /* align-items: flex; */
 }
 
 section {
@@ -80,5 +140,5 @@ li {
 footer {
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
