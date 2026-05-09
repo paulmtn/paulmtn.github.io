@@ -10,59 +10,112 @@
 
     <body>
         <main>
-            <div class="top-row"> 
+            <div class="row0"> 
                 <nav class="box">
                     <div class="box-header">NAVIGATE</div>
-                    <ul>
-                        <li><a href="/me/about me/">about me</a></li>
-                        <li><a href="/portfolio/art">art</a></li>
+                    <ul class="nav">
+                        <li><span class="nav-bullet">&#10022; </span><a href="/me/about me/">about me</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/me/favorites/">favorites</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/portfolio/art">art</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/portfolio/projects">projects</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/resources/links">links</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/resources/collection">collection</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/resources/credits">credits</a></li>
                     </ul>
                 </nav>
                 <div class="box">
-                    <div class="box-header">MY CORNER OF THE WEB</div>
+                    <div class="box-header">WELCOME TO MY WEBSITE</div>
+                    <div class="profile-content">
+                        <img class="profile-img" src="/assets/profile/fallen-angels-reis(7).png">
+                        <div class="profile-text">
+                            <div>Welcome to my site! I'm Paul and am a student in Computer Science and Computer Engineering who spends most of my time painting, drawing, coding, reading, and listening to music.</div>
+                            <div class="view">Best viewed on computer</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="bottom-row">
+
+            <div class="row1">
                 <div class="box">
                     <div class="box-header">PAINTING OF THE DAY</div>
-                    <img class="potd" src="/assets/paintings/jubilee-procession-in-a-cornish-village-george-sherwood-hunter.webp">
+                    <img class="potd" alt="Jubilee Procession in a Cornish Village" src="/assets/paintings/jubilee-procession-in-a-cornish-village-george-sherwood-hunter.webp">
                     <div class="potd-title">Jubilee Procession in a Cornish Village </div>
                     <div class="potd-meta">George Sherwood Hunter<br>
-                        1897 &middot; oil on canvas
-                    </div>
-                    <a class="potd-link" target="_blank" href="https://artuk.org/discover/artworks/jubilee-procession-in-a-cornish-village-june-1897-14346">read more</a>
+                        1897 &middot; oil on canvas<br>
+                        <a class="potd-link" target="_blank" href="https://artuk.org/discover/artworks/jubilee-procession-in-a-cornish-village-june-1897-14346">read more >></a>
+                        </div>
+                </div>
+                <div class="box box-welcome">
+                    <div class="box-header">ABOUT</div>
+                    <p class="box-text">hi :) after being inspired by a bunch of different sites like ribo.zone, precipice,  I decided to make my own. This site serves as a way for my to express myself and everything that I enjoy from my love for art and programming to the media I consume and my various projects that I'm working on.</p>
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="box">
+                    <div class="box-header">CHANGELOG</div>
+                    <iframe src="changelog.html" class="changelog" title="changelog" name="changelog"></iframe>
                 </div>
                 <div class="box">
-                    <div class="box-header">WELCOME</div>
+                    <div class="box-header status--header">STATUS<span class="status-date"></span></div>
+                    <div class="statuses">
+                        <div class="status">finally, summer break!</div>
+                        <br>
+                        <div class="status">listening to: illit</div>
+                        <div class="status">reading: Walden by Thoreau</div>
+                        <div class="status">watching: dunno</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">TODO</div>
+                    <ul class="todo-list">
+                        <li class="todo-item">Guestbook</li>
+                        <li class="todo-item">Visitor Counter</li>
+                        <li class="todo-item">Contact info</li>
+                        <li class="todo-item">Make my own button and add to site</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box box--ticker">
+                <div class="box-header">GIF COLLECTION</div>
+                <div class="ticker-wrapper">
+                    <div class="ticker">
+                        <img src="/assets/gifs/angkitty.gif">
+                        <img src="/assets/gifs/chicken1.gif">
+                        <img src="/assets/gifs/fairy-3.gif">
+                        <img src="/assets/gifs/fairyd.gif">
+                        <img src="/assets/gifs/fairyz.gif">
+                        <img src="/assets/gifs/flower.gif">
+                        <img src="/assets/gifs/flower1b.gif">
+                        <img src="/assets/gifs/goronyan1.gif">
+                        <img src="/assets/gifs/magic.gif">
+                        <img src="/assets/gifs/mushroom1.gif">
+                        <img src="/assets/gifs/p_27.gif">
+                        <img src="/assets/gifs/plumfae.gif">       
+                        <img src="/assets/gifs/angkitty.gif">
+                        <img src="/assets/gifs/chicken1.gif">
+                        <img src="/assets/gifs/fairy-3.gif">
+                        <img src="/assets/gifs/fairyd.gif">
+                        <img src="/assets/gifs/fairyz.gif">
+                        <img src="/assets/gifs/flower.gif">
+                        <img src="/assets/gifs/flower1b.gif">
+                        <img src="/assets/gifs/goronyan1.gif">
+                        <img src="/assets/gifs/magic.gif">
+                        <img src="/assets/gifs/mushroom1.gif">
+                        <img src="/assets/gifs/p_27.gif">
+                        <img src="/assets/gifs/plumfae.gif">               
+                    </div>
                 </div>
             </div>
         </main>
-        <!-- <header>
-            My Website
-        </header>
-        <main>
-            <aside>
-                    <h2>me</menu></h2>
-                    <ul>
-                        <li><a href="/me/about me/">ABOUT ME</a></li>
-                        <li>FAVORITE MEDIA</li>
-                    </ul>
-                    <h2>portfolio</h2>
-                    <ul>
-                        <li><a href="/portfolio/art">art</a></li>
-                        <li><a href="/portfolio/projects">projects</a></li>
-                    </ul>
-                    <h2>resources</h2>
-                    <ul>
-                        <li><a href="/resources/links">links</a></li>
-                        <li>collection</li>
-                        <li>credits</li>
-                    </ul>
-            </aside>
-            
-            <section>main content</section>
-            
-        </main>
-        <footer>footer</footer> -->
+        <script>
+            const updated = new Date("2026-05-08");
+            const now = new Date();
+            const days = Math.floor((now - updated) / (1000 * 60 * 60 * 24));
+
+            document.querySelector(".status-date").textContent = 
+                days === 0 ? "today" : `${days} days ago`;
+        </script>
     </body>
 </html>
