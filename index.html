@@ -38,14 +38,15 @@
             <div class="row1">
                 <div class="box">
                     <div class="box-header">PAINTING OF THE DAY</div>
-                    <img class="potd" alt="Jubilee Procession in a Cornish Village" src="/assets/paintings/jubilee-procession-in-a-cornish-village-george-sherwood-hunter.webp">
-                    <div class="potd-title">Jubilee Procession in a Cornish Village </div>
-                    <div class="potd-meta">George Sherwood Hunter<br>
-                        1897 &middot; oil on canvas<br>
-                        <a class="potd-link" target="_blank" href="https://artuk.org/discover/artworks/jubilee-procession-in-a-cornish-village-june-1897-14346">read more >></a>
-                        </div>
+                    <img class="potd" alt="">
+                    <div class="potd-title"></div>
+                    <div class="potd-artist"></div>
+                    <div class="potd-meta">
+                        <span class="potd-date"></span> · <span class="potd-medium"></span>
+                    </div>
+                    <a class="potd-link" target="_blank">read more >></a>
                 </div>
-                <div class="box box-welcome">
+                <div class="box box--welcome">
                     <div class="box-header">ABOUT</div>
                     <p class="box-text">hi :) after being inspired by a bunch of different sites like ribo.zone, precipice,  I decided to make my own. This site serves as a way for my to express myself and everything that I enjoy from my love for art and programming to the media I consume and my various projects that I'm working on.</p>
                 </div>
@@ -92,7 +93,8 @@
                         <img src="/assets/gifs/magic.gif">
                         <img src="/assets/gifs/mushroom1.gif">
                         <img src="/assets/gifs/p_27.gif">
-                        <img src="/assets/gifs/plumfae.gif">       
+                        <img src="/assets/gifs/plumfae.gif">
+
                         <img src="/assets/gifs/angkitty.gif">
                         <img src="/assets/gifs/chicken1.gif">
                         <img src="/assets/gifs/fairy-3.gif">
@@ -112,10 +114,35 @@
         <script>
             const updated = new Date("2026-05-08");
             const now = new Date();
-            const days = Math.floor((now - updated) / (1000 * 60 * 60 * 24));
+            now.setHours(0, 0, 0, 0);
+            const millisecondsPerDay = 86400000
+            const days = Math.floor((now - updated) / millisecondsPerDay);
 
             document.querySelector(".status-date").textContent = 
-                days === 0 ? "today" : `${days} days ago`;
+                days === 0 ? "today" : days === 1 ? "yesterday" : `${days} days ago`;
+            
+            // POTD
+            fetch("/assets/paintings/paintings.json")
+            .then(result => result.json())
+            .then(paintings => {
+                const date = new Date();
+
+                // BigInt to account for size
+                const seed = BigInt(date.getFullYear() * 1000 + (date.getMonth() + 1) * 100 + date.getDate());
+                const knuth = 2654435761n; // n to make BigInt literal
+                const index = Number ((seed * knuth) % BigInt(paintings.length)); // convert to regular number
+                const painting = paintings[index];
+                
+                // testing
+                // const painting = paintings[4];
+
+                document.querySelector(".potd").src = `/assets/paintings/${painting.file}`;
+                document.querySelector(".potd-title").textContent = painting.title;
+                document.querySelector(".potd-artist").textContent = painting.artist;
+                document.querySelector(".potd-date").textContent = painting.date;
+                document.querySelector(".potd-medium").textContent = painting.medium;
+                document.querySelector(".potd-link").href = painting.link;
+            })  
         </script>
     </body>
 </html>

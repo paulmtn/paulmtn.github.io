@@ -13,17 +13,8 @@
 
 :root {
     --primary: #125e50;
-    --gradient-1: rgb(181, 232, 227);
-    --gradient-2: rgb(150, 210, 174);
 
-
-    --homepage-bg: url("/assets/carnation-lily-lily-rose-sargeant(7).png");
-    /* --homepage-bg: url("../assets/original_70566fb0-be5f-4fbd-ac5d-15fef2d15be7_IMG_20260214_132239703-EDIT(5).png"); */
-
-    /* --homepage-main-bg: url("/assets/bgs/bg(5).png"); */
-    --homepage-main-bg: url("/assets/pixil-frame-0(1).png");
-
-    --homepage-h2-bg: url("/assets/bgs/bg(3).png");
+    --homepage-bg: url("/assets/bgs/carnation-lily-lily-rose-sargeant(7).png");
 }
 
 * {

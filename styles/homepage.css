@@ -25,10 +25,10 @@ body {
 
 .nav li {
     margin-top:6px;
+    list-style-type: none;
 }
 
-.nav li a {
-    list-style-type: none;
+.nav li a{
     align-items: center;
     text-decoration: underline;
 }
@@ -50,6 +50,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 12px;
+    align-items: start;
 }
 
 .row2 {
@@ -61,7 +62,8 @@ body {
 
 /* BOXES */
 .box {
-    background: rgba(0, 0, 0, 0.60);
+    /* background: url("/assets/bgs/bg(0).png"); */
+    background-color: rgba(7, 22, 34, 0.8);
     border: 2px white dotted;
 }
 
@@ -102,20 +104,16 @@ body {
 .potd {
     width: 100%;
     height: auto;
+    /* max-height: 500px; */
     display: block;
     padding: 0px 8px 6px 8px;
+    image-rendering: crisp-edges;
 }
 
-.potd-title {
+.potd-title, .potd-artist, .potd-date, .potd-link {
     margin-left: 8px;
 }
 
-.potd-meta {
-    font-size: 14px;
-    margin-left: 8px;
-    margin-bottom: 8px;
-
-}
 
 .potd-link {
     text-decoration: underline;
