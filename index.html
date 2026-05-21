@@ -14,7 +14,7 @@
                 <nav class="box">
                     <div class="box-header">NAVIGATE</div>
                     <ul class="nav">
-                        <li><span class="nav-bullet">&#10022; </span><a href="/me/about me/">about me</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/me/about-me/">about me</a></li>
                         <li><span class="nav-bullet">&#10022; </span><a href="/me/favorites/">favorites</a></li>
                         <li><span class="nav-bullet">&#10022; </span><a href="/portfolio/art">art</a></li>
                         <li><span class="nav-bullet">&#10022; </span><a href="/portfolio/projects">projects</a></li>
@@ -122,19 +122,18 @@
                 days === 0 ? "today" : days === 1 ? "yesterday" : `${days} days ago`;
             
             // POTD
-            fetch("/assets/paintings/paintings.json")
+            fetch(`/assets/paintings/paintings.json?t=${Date.now()}`) // forces the cache to fetch the file everytime so it's up to date
             .then(result => result.json())
             .then(paintings => {
                 const date = new Date();
 
                 // BigInt to account for size
-                const seed = BigInt(date.getFullYear() * 1000 + (date.getMonth() + 1) * 100 + date.getDate());
+                const seed = (date.getMonth() + 1) * 100 + date.getDate();
                 const knuth = 2654435761n; // n to make BigInt literal
-                const index = Number ((seed * knuth) % BigInt(paintings.length)); // convert to regular number
-                const painting = paintings[index];
+                const index = Number((BigInt(seed) * knuth) % BigInt(paintings.length)); // convert to regular number
                 
-                // testing
-                // const painting = paintings[4];
+                // const painting = paintings[index];
+                const painting = paintings[12]; // testing
 
                 document.querySelector(".potd").src = `/assets/paintings/${painting.file}`;
                 document.querySelector(".potd-title").textContent = painting.title;

@@ -8,7 +8,7 @@
         "link" : "https://artuk.org/discover/artworks/jubilee-procession-in-a-cornish-village-june-1897-14346"
     },
     {
-        "file": "carnation-lily-lily-rose-sargeant.jpeg",
+        "file": "carnation-lily-lily-rose.jpg",
         "title": "Carnation, Lily, Lily, Rose",
         "artist": "John Singer Sargeant",
         "date": "1885-86",
@@ -48,12 +48,84 @@
         "link": "https://www.christies.com/lot/lot-maxfield-parrish-1870-1966-the-lantern-bearers-4715256/"
     },
     {
-        "file": "",
-        "title": "",
-        "artist": "",
-        "date": "",
-        "medium": "",
-        "link": ""
+        "file": "en-promenade.jpg",
+        "title": "En Promenade",
+        "artist": "Frederick Carl Frieseke",
+        "date": "1908",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/Frederick_Carl_Frieseke"
+    },
+    {
+        "file": "mauve-dress.jpg",
+        "title": "Woman in a Mauve Dress",
+        "artist": "Octave Denis Victor Guillonnet",
+        "date": "unknown",
+        "medium": "oil on panel",
+        "link": "https://www.modernfineart.com/artists/308-octave-denis-victor-guillonnet/biography/"
+    },
+    {
+        "file": "sunlight-in-the-blue-room.jpg",
+        "title": "Sunlight in the Blue Room",
+        "artist": "Anna Ancher",
+        "date": "1891",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/Sunlight_in_the_Blue_Room"
+    },
+    {
+        "file": "lady-of-shalott.jpg",
+        "title": "The Lady of Shalott",
+        "artist": "John William Waterhouse",
+        "date": "1888",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/The_Lady_of_Shalott_(painting)"
+    },
+    {
+        "file": "wedding-of-tsar-nicholas-ii.jpg",
+        "title": "The Wedding of Tsar Nicholas II and Alexandra Feodorovna",
+        "artist": "Laurits Tuxen",
+        "date": "1895-96",
+        "medium": "oil on canvas",
+        "link": "https://www.rct.uk/collection/404465/the-marriage-of-nicholas-ii-tsar-of-russia-26th-november-1894"
+    },
+    {
+        "file": "blue-armchair.jpg",
+        "title": "Little Girl in a Blue Armchair",
+        "artist": "Mary Cassett",
+        "date": "1878",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/Little_Girl_in_a_Blue_Armchair"
+    },
+    {
+        "file": "self-portrait-bracquemond.jpg",
+        "title": "Self Portrait",
+        "artist": "Marie Bracquemond",
+        "date": "1870",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/Marie_Bracquemond#"
+    },
+    {
+        "file": "summer-afternoon.jpg",
+        "title": "Summer Afternoon on a Lake",
+        "artist": "Jean-Leon Gerome",
+        "date": "1895",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/Jean-L%C3%A9on_G%C3%A9r%C3%B4me"
+    },
+    {
+        "file": "pollice-verso.jpg",
+        "title": "Pollice Verso",
+        "artist": "Jean-Leon Gerome",
+        "date": "1872",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/Pollice_Verso_(G%C3%A9r%C3%B4me)#"
+    },
+    {
+        "file": "two-ballet-dancers.jpg",
+        "title": "Two Ballet Dancers",
+        "artist": "Edgar Degas",
+        "date": "1879",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/Edgar_Degas"
     }
 ]
 
