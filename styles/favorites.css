@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background-image: url("/assets/bgs/wheat-field-with-cypresses0.jpg");
+    background-size: cover;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+}
+
+main {
+    max-width: 1000px;
+    margin: 32px auto;
+    padding: 0px 16px;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    font-size: 36px;
+    border-bottom: 2px dotted white;
+    padding-bottom: 16px;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.scroll-area {
+    overflow-y: auto;
+}
+
+.row3 {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.row2 {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.box {
+    background-color: rgba(73, 103, 141, 0.8);
+    border: 2px white dotted;
+}
+
+.box-header {
+    border-bottom: 1px solid white;
+    margin: 8px 8px 6px 8px;
+}
