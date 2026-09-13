@@ -126,6 +126,38 @@
         "date": "1879",
         "medium": "oil on canvas",
         "link": "https://en.wikipedia.org/wiki/Edgar_Degas"
+    },
+    {
+        "file": "the-boat-at-giverny.jpg",
+        "title": "The Boat at Giverny",
+        "artist": "Claude Monet",
+        "date": "1877",
+        "medium": "oil on canvas",
+        "link": "https://www.claude-monet.com/the-boat-at-giverny.jsp"
+    },
+    {
+        "file": "walk-on-the-beach.jpg",
+        "title": "Walk on the Beach",
+        "artist": "Joaquin Sorolla",
+        "date": "1909",
+        "medium": "oil on canvas",
+        "link": "https://en.wikipedia.org/wiki/Walk_on_the_Beach"
+    },
+    {
+        "file": "the-dance-lesson.jpg",
+        "title": "The Dance Lesson",
+        "artist": "Edgar Degas",
+        "date": "1879",
+        "medium": "oil on canvas",
+        "link": "https://www.nga.gov/artworks/93045-dance-lesson"
+    },
+    {
+        "file": "angel.jpg",
+        "title": "Angel",
+        "artist": "Abbott Handerson Thayer",
+        "date": "1887",
+        "medium": "oil on canvas",
+        "link": "https://americanart.si.edu/artwork/angel-23922"
     }
 ]
 

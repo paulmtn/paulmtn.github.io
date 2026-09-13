@@ -133,7 +133,7 @@
                 const index = Number((BigInt(seed) * knuth) % BigInt(paintings.length)); // convert to regular number
                 
                 // const painting = paintings[index];
-                const painting = paintings[12]; // testing
+                const painting = paintings[19]; // testing
 
                 document.querySelector(".potd").src = `/assets/paintings/${painting.file}`;
                 document.querySelector(".potd-title").textContent = painting.title;
