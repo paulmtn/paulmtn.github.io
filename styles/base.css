@@ -13,8 +13,17 @@
 
 :root {
     --primary: #125e50;
-
     --homepage-bg: url("/assets/bgs/carnation-lily-lily-rose-sargeant(7).png");
+
+    /* About Me */
+    --side-img: url("/assets/cathedral/cathedral(14).png");
+    --bg-pattern: url("/assets/bgs/about-me-bg2.png");
+
+    /* Art Gallery */
+    --bg-color: #4a6b6b;
+    --bg-color1: #3a5555;
+    --gallery-bg-pattern: url("/assets/bgs/bg-pattern.png");
+    --text-color: white;
 }
 
 * {

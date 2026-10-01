@@ -1,9 +1,3 @@
-:root {
-    /* --side-img: url("/assets/cathedral/cathedral(17)-cropped.png"); */
-    --side-img: url("/assets/cathedral/cathedral(14).png");
-    /* --bg-img: url("/assets/aboutme.png"); */
-}
-
 body {
     color: var(--primary);
 }
@@ -23,32 +17,26 @@ main {
     display: flex;
     flex-direction: row;
 
-    background-image: url("/assets/bgs/about-me-bg2.png");
+    background-image: var(--bg-pattern);
     background-repeat: repeat;
     background-size: 16px 16px;
     /* background-color: #819195; */
 }
 
-/* header {
-    display: flex;
-    flex-direction: column;
-} */
-
 .stamps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 4px;
-    max-width: 292px;
-    justify-items: center;
+    grid-area: stamps;
+    max-width: 300px;
     align-self: start;
+    text-align: center;
+    font-size: 0;
 }
 
 .stamp {
-    display: block;
-    width: 100%;
-    max-width: 144px;
+    display: inline-block;
+    width: 140px;
     height: auto;
     object-fit: cover;
+    margin: 2px;
     break-inside: avoid;
 }
 
@@ -72,18 +60,15 @@ main {
 
 .blinkies {
     grid-area: blinkies;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 8px;
-    justify-content: center;
-    justify-items: center;
+    text-align: center;
 }
 
 .blinkie {
+    display: inline-block;
     width: 100%;
     max-width: 250px;
     height: auto;
-    display: block;
+    margin: 4px;
 }
 
 h1 {
@@ -114,10 +99,6 @@ a {
 
     .stamps {
         max-width: unset;
-    }
-
-    .blinkies {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
 }
 
