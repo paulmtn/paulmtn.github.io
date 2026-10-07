@@ -10,9 +10,6 @@ main {
     max-width: 1000px;
     margin: 32px auto;
     padding: 0px 16px;
-    height: calc(100vh - 64px);
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -30,13 +27,8 @@ h1 {
     margin-top: 2rem;
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-}
-
-.scroll-area {
-    overflow-y: auto;
+.content {
+    padding-bottom: 32px;
 }
 
 .row3 {

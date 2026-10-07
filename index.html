@@ -4,7 +4,7 @@
         <meta charset="UTF-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <link rel="stylesheet" href="/styles/base.css">
-        <link rel="stylesheet" href="/styles/homepage.css">
+        <link rel="stylesheet" href="/styles/neighbors.css">
         <title>viridian</title>
     </head>
 
@@ -14,13 +14,12 @@
                 <nav class="box">
                     <div class="box-header">NAVIGATE</div>
                     <ul class="nav">
-                        <li><span class="nav-bullet">&#10022; </span><a href="/me/about-me/">about me</a></li>
-                        <li><span class="nav-bullet">&#10022; </span><a href="/me/favorites/">favorites</a></li>
-                        <li><span class="nav-bullet">&#10022; </span><a href="/portfolio/art">art</a></li>
-                        <li><span class="nav-bullet">&#10022; </span><a href="/portfolio/projects">projects</a></li>
-                        <li><span class="nav-bullet">&#10022; </span><a href="/resources/links">links</a></li>
-                        <li><span class="nav-bullet">&#10022; </span><a href="/resources/collection">collection</a></li>
-                        <li><span class="nav-bullet">&#10022; </span><a href="/resources/credits">credits</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/about-me/">about me</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/favorites/">favorites</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/art-gallery/">art</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/projects/">projects</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/links/">links</a></li>
+                        <li><span class="nav-bullet">&#10022; </span><a href="/neighbors/">neighbors</a></li>
                     </ul>
                 </nav>
                 <div class="box">
@@ -48,7 +47,7 @@
                 </div>
                 <div class="box box--welcome">
                     <div class="box-header">ABOUT</div>
-                    <p class="box-text">hi :) after being inspired by a bunch of different sites like ribo.zone, precipice,  I decided to make my own. This site serves as a way for my to express myself and everything that I enjoy from my love for art and programming to the media I consume and my various projects that I'm working on.</p>
+                    <p class="box-text">hi :) after being inspired by a bunch of different sites like ribo.zone, precipice,  I decided to make my own. This site serves as a way for me to express myself and everything that I enjoy from my love for art and programming to the media I consume and my various projects that I'm working on.</p>
                 </div>
             </div>
 
@@ -60,11 +59,11 @@
                 <div class="box">
                     <div class="box-header status--header">STATUS<span class="status-date"></span></div>
                     <div class="statuses">
-                        <div class="status">finally, summer break!</div>
+                        <div class="status">and the leaves begin to fall</div>
                         <br>
-                        <div class="status">listening to: illit</div>
-                        <div class="status">reading: Walden by Thoreau</div>
-                        <div class="status">watching: dunno</div>
+                        <div class="status">listening to: korean shoegaze</div>
+                        <div class="status">reading: The Player of Games by Ian M. Banks</div>
+                        <div class="status">watching: Rebels of the Neon God (1992)</div>
                     </div>
                 </div>
                 <div class="box">
@@ -112,7 +111,7 @@
             </div>
         </main>
         <script>
-            const updated = new Date("2026-05-08");
+            const updated = new Date("2026-10-06");
             const now = new Date();
             now.setHours(0, 0, 0, 0);
             const millisecondsPerDay = 86400000
@@ -132,8 +131,8 @@
                 const knuth = 2654435761n; // n to make BigInt literal
                 const index = Number((BigInt(seed) * knuth) % BigInt(paintings.length)); // convert to regular number
                 
-                // const painting = paintings[index];
-                const painting = paintings[19]; // testing
+                const painting = paintings[index];
+                // const painting = paintings[19]; // testing
 
                 document.querySelector(".potd").src = `/assets/paintings/${painting.file}`;
                 document.querySelector(".potd-title").textContent = painting.title;
@@ -141,6 +140,7 @@
                 document.querySelector(".potd-date").textContent = painting.date;
                 document.querySelector(".potd-medium").textContent = painting.medium;
                 document.querySelector(".potd-link").href = painting.link;
+                document.querySelector(".potd").alt = painting.title;
             })  
         </script>
     </body>

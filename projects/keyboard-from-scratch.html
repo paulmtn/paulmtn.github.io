@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/base.css">
+        <link rel="stylesheet" href="/styles/project-page.css">
+        <title>Keyboard From Scratch</title>
+    </head>
+    <body>
+        <nav class="header">
+            <a href="/">HOME</a> &middot <a href="/projects/">PROJECTS</a>
+        </nav>
+
+        <main class="project-page">
+            <header>
+                <h1>Keyboard from Scratch</h1>
+                <p class="meta">Fall 2026 · KICAD</p>
+            </header>
+
+
+            <section>
+                <h2>Overview</h2>
+                <div class="hero">
+                    <img src="/assets/projects/keyboard-from-scratch/keyboard-from-scratch2.png" alt="describe the image">
+                    <p class="figure-caption">Schematic consisting of the microcontroller, power decoupling capacitors, crystal, reset circuit, ISP header, and USB-C connector</p>
+                </div>
+                <p>A keyboard works by having all the switches connected as a grid of circuits with diodes to only allow current to go a certain way. When you press a key, the switch latches which completes the circuit and allows the small current to flow through it. The microcontroller will then compare that location on the key matrix to the character map in its read-only memory (ROM), a lookup table that tells the processor the location of each key and what it represents. </p>
+            </section>
+
+            <section>
+                <h2>How it Works</h2>
+                <p>A keyboard works by having all the switches connected as a grid of circuits with diodes to only allow current to go a certain way. When you press a key, the switch latches which completes the circuit and allows the small current to flow through it. The microcontroller will then compare that location on the key matrix to the character map in its read-only memory (ROM), a lookup table that tells the processor the location of each key and what it represents. </p>
+                <div class="hero">
+                    <img src="/assets/projects/keyboard-from-scratch/keyboard-from-scratch3.png" alt="describe the image">
+                    <p class="figure-caption">Second schematic page of the key matrix</p>
+                </div>
+                <div class="hero">
+                    <img src="/assets/projects/keyboard-from-scratch/keyboard-from-scratch1.png" alt="describe the image">
+                    <p class="figure-caption">Routed PCB design</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>What I Learned</h2>
+                <p>This was my first time working with printed circuit boards (PCBs) in any way and learning how to use KiCad was fun! Being able to put the electrical engineering concepts I learned in my classes to one of my projects was great and it was fun but painful routing all the traces once I got my schematic working.</p>
+            </section>
+
+            <section>
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="https://www.masterzen.fr/2020/05/03/designing-a-keyboard-part-1/">MasterZen Tutorial ↗</a></li>
+                    <li><a href="https://www.masterzen.fr/2020/05/03/designing-a-keyboard-part-1/">Ai03 Tutorial ↗</a></li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>

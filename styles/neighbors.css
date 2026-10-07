@@ -1,20 +1,18 @@
 .content,
 .header {
     box-sizing: border-box;
-    max-width: 776px;
-    margin: 2rem auto;
+    max-width: min(728px, 100% - 48px);
+    margin: 32px auto;
 }
 
 .content {
-    padding: 0 24px;
+    padding: 0;
 }
 
 .header {
-    width: calc(min(900px, 100%) - 48px);
     font-size: 36px;
     border-bottom: 2px dotted white;
     padding-bottom: 16px;
-    padding-left: 8px;
 }
 
 body {
