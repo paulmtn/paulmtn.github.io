@@ -34,13 +34,14 @@ body {
     margin: 8px 8px 6px 8px;
 }
 
-.buttons {
+ .buttons {
     display: grid;
     grid-template-columns: repeat(5, 132px);
     justify-content: start;
     gap: 12px;
     padding: 8px;
 }
+
 
 .buttons img {
     display: block;
@@ -49,11 +50,12 @@ body {
     image-rendering: pixelated;
 }
 
+
 .text-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 132px;           /* match your button size */
+    width: 132px;
     aspect-ratio: 88 / 31;
     box-sizing: border-box;
     border: 2px dotted white;
@@ -63,9 +65,10 @@ body {
     color: white;
 }
 
+
 .text-button:hover {
     background: rgba(255, 255, 255, 0.15);
-}
+} 
 
 .buttons img:hover {
     /* Make outline instead of bg*/
