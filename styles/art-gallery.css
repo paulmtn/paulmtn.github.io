@@ -1,14 +1,16 @@
 body {
+    background-color: var(--gallery-bg-color);
+    background-image: var(--gallery-bg-img);
+    background-repeat: repeat;
+    image-rendering: pixelated;
     color: var(--text-color);
-    background-image: var(--gallery-bg-pattern);
     background-repeat: repeat;
     background-size: 32px 32px;
 }
 
 .content {
     display: flex;
-    flex-direction: row;
-}
+    flex-direction: row; }
 
 
 .header {

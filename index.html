@@ -26,7 +26,7 @@
                     <div class="profile-content">
                         <img class="profile-img" src="/assets/profile/fallen-angels-reis(7).png">
                         <div class="profile-text">
-                            <div>Welcome to my site! I'm Paul and am a student in Computer Science and Computer Engineering who spends most of my time painting, drawing, coding, reading, and listening to music.</div>
+                            <div>hi :) after being inspired by a bunch of different sites like ribo.zone, precipice,  I decided to make my own. This site serves as a way for me to express myself and everything that I enjoy from my love for art and programming to the media I consume and my various projects that I'm working on.</div>
                             <div class="view">Best viewed on computer</div>
                         </div>
                     </div>
@@ -45,8 +45,8 @@
                     <a class="potd-link" target="_blank">read more >></a>
                 </div>
                 <div class="box box--welcome">
-                    <div class="box-header">ABOUT</div>
-                    <p class="box-text">hi :) after being inspired by a bunch of different sites like ribo.zone, precipice,  I decided to make my own. This site serves as a way for me to express myself and everything that I enjoy from my love for art and programming to the media I consume and my various projects that I'm working on.</p>
+                    <div class="box-header">THOUGHTS ON THE POTD</div>
+                    <p class="box-text potd-thoughts"></p>
                 </div>
             </div>
 
@@ -140,6 +140,11 @@
                 document.querySelector(".potd-medium").textContent = painting.medium;
                 document.querySelector(".potd-link").href = painting.link;
                 document.querySelector(".potd").alt = painting.title;
+                if (painting.thoughts) {
+                    document.querySelector(".potd-thoughts").textContent = painting.thoughts;
+                } else {
+                    document.querySelector(".potd-thoughts").textContent = "nothing yet";
+                }
             })  
         </script>
         <script data-goatcounter="https://pauoww.goatcounter.com/count"

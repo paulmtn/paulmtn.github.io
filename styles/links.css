@@ -1,4 +1,3 @@
-
 .content,
 .header {
     box-sizing: border-box;
@@ -17,7 +16,9 @@
 }
 
 body {
-    background: var(--bg-color);
+    background-image: var(--links-bg-img);
+    background-repeat: repeat;
+    background-position: top center;
     color: white;
     image-rendering: auto;
 }
@@ -34,7 +35,6 @@ body {
     border-bottom: 1px solid white;
     margin: 8px 8px 6px 8px;
 }
-
 
 .text-button:hover {
     background: rgba(255, 255, 255, 0.15);

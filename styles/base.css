@@ -12,22 +12,32 @@
 
 
 :root {
+    /* Homepage */
+    --homepage-box-color: #071622CC;
     --primary: #125e50;
-    --homepage-bg: url("/assets/bgs/carnation-lily-lily-rose-sargeant(7).png");
+    --homepage-bg: url("/assets/bgs/carnation-lily-lily-rose.png");
 
     /* About Me */
-    --side-img: url("/assets/cathedral/cathedral(14).png");
+    --side-img: url("/assets/bgs/cathedral.png");
     --bg-pattern: url("/assets/bgs/about-me-bg2.png");
 
     /* Art Gallery */
-    --bg-color: #4a6b6b;
-    --bg-color1: #3a5555;
-    --gallery-bg-pattern: url("/assets/bgs/bg-pattern.png");
-    --text-color: white;
+    --gallery-bg-color: #133831;
+    --gallery-bg-img: url("/assets/bgs/gallery-pattern.png");
+    --gallery-text-color: white;
 
     /* Projects */
+    --projects-bg-img: url("/assets/bgs/projects-pattern.png");
+    --projects-bg-color: #212c3b;
+    --projects-caption-color: white;
+    --projects-project-border: white;
+    --projects-project-bg-color: #333f4f70;
+    --projects-project-box-shadow-color: #071221;
 
     /* Project Page */
+
+    /* Links */
+    --links-bg-img: url("/assets/bgs/bird-william-morris.png");
 }
 
 * {

@@ -1,9 +1,14 @@
 body {
-    color: var(--primary);
-    background-color: var(--bg-color);
+    background-color: var(--projects-bg-color);
+    background-image: var(--projects-bg-img);
+    background-repeat: repeat;
     display: flex;
+    background-size: 14px 14px;
     flex-direction: column;
-    margin-right: 16px;
+    image-rendering: pixelated;
+    margin: 0;
+    padding: 0 42px;
+    padding-left: 0;
 }
 
 .header {
@@ -11,7 +16,8 @@ body {
     border-bottom: 2px dotted white;
     padding-bottom: 8px;
     display: block;
-    margin: 16px 42px;
+    margin: 16px 0px;
+    margin-left: 42px;
     text-decoration: underline;
 }
 
@@ -38,6 +44,10 @@ body {
     flex-direction: column;
     text-decoration: none;
     color: inherit;
+    padding: 8px;
+    border: 1px dotted var(--projects-project-border);
+    box-shadow: 10px 10px 0 var(--projects-project-box-shadow-color);
+    background-color: var(--projects-project-bg-color);
 }
 
 .project img {
@@ -46,7 +56,9 @@ body {
 }
 
 .project .caption {
-    color: black;
+    font-size: 2rem;
+    margin-top: 8px;
+    color: var(--projects-caption-color);
 }
 
 .gallery {

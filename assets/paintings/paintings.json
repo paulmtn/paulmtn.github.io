@@ -5,23 +5,26 @@
         "artist": "George Sherwood Hunter",
         "date": "1897",
         "medium": "oil on canvas",
-        "link" : "https://artuk.org/discover/artworks/jubilee-procession-in-a-cornish-village-june-1897-14346"
+        "link": "https://artuk.org/discover/artworks/jubilee-procession-in-a-cornish-village-june-1897-14346",
+        "thoughts": ""
     },
     {
         "file": "carnation-lily-lily-rose.jpg",
         "title": "Carnation, Lily, Lily, Rose",
-        "artist": "John Singer Sargeant",
+        "artist": "John Singer Sargent",
         "date": "1885-86",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Carnation,_Lily,_Lily,_Rose"
+        "link": "https://en.wikipedia.org/wiki/Carnation,_Lily,_Lily,_Rose",
+        "thoughts": ""
     },
     {
         "file": "madame-x.jpeg",
         "title": "Madame X",
-        "artist": "John Singer Sargeant",
+        "artist": "John Singer Sargent",
         "date": "1884",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Portrait_of_Madame_X"
+        "link": "https://en.wikipedia.org/wiki/Portrait_of_Madame_X",
+        "thoughts": ""
     },
     {
         "file": "woman-with-a-parasol-monet.jpg",
@@ -29,15 +32,17 @@
         "artist": "Claude Monet",
         "date": "1875",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son"
+        "link": "https://en.wikipedia.org/wiki/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son",
+        "thoughts": ""
     },
     {
         "file": "wheat-field-with-cypresses-van-gogh.jpg",
         "title": "Wheat Field with Cypresses",
-        "artist": "Vinvent Van Gogh",
+        "artist": "Vincent Van Gogh",
         "date": "1889",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Wheat_Field_with_Cypresses"
+        "link": "https://en.wikipedia.org/wiki/Wheat_Field_with_Cypresses",
+        "thoughts": ""
     },
     {
         "file": "the-lantern-bearers.jpeg",
@@ -45,7 +50,8 @@
         "artist": "Maxfield Parrish",
         "date": "1908",
         "medium": "oil on canvas",
-        "link": "https://www.christies.com/lot/lot-maxfield-parrish-1870-1966-the-lantern-bearers-4715256/"
+        "link": "https://www.christies.com/lot/lot-maxfield-parrish-1870-1966-the-lantern-bearers-4715256/",
+        "thoughts": ""
     },
     {
         "file": "en-promenade.jpg",
@@ -53,7 +59,8 @@
         "artist": "Frederick Carl Frieseke",
         "date": "1908",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Frederick_Carl_Frieseke"
+        "link": "https://en.wikipedia.org/wiki/Frederick_Carl_Frieseke",
+        "thoughts": ""
     },
     {
         "file": "mauve-dress.jpg",
@@ -61,7 +68,8 @@
         "artist": "Octave Denis Victor Guillonnet",
         "date": "unknown",
         "medium": "oil on panel",
-        "link": "https://www.modernfineart.com/artists/308-octave-denis-victor-guillonnet/biography/"
+        "link": "https://www.modernfineart.com/artists/308-octave-denis-victor-guillonnet/biography/",
+        "thoughts": ""
     },
     {
         "file": "sunlight-in-the-blue-room.jpg",
@@ -69,7 +77,8 @@
         "artist": "Anna Ancher",
         "date": "1891",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Sunlight_in_the_Blue_Room"
+        "link": "https://en.wikipedia.org/wiki/Sunlight_in_the_Blue_Room",
+        "thoughts": ""
     },
     {
         "file": "lady-of-shalott.jpg",
@@ -77,7 +86,8 @@
         "artist": "John William Waterhouse",
         "date": "1888",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/The_Lady_of_Shalott_(painting)"
+        "link": "https://en.wikipedia.org/wiki/The_Lady_of_Shalott_(painting)",
+        "thoughts": ""
     },
     {
         "file": "wedding-of-tsar-nicholas-ii.jpg",
@@ -85,7 +95,8 @@
         "artist": "Laurits Tuxen",
         "date": "1895-96",
         "medium": "oil on canvas",
-        "link": "https://www.rct.uk/collection/404465/the-marriage-of-nicholas-ii-tsar-of-russia-26th-november-1894"
+        "link": "https://www.rct.uk/collection/404465/the-marriage-of-nicholas-ii-tsar-of-russia-26th-november-1894",
+        "thoughts": ""
     },
     {
         "file": "blue-armchair.jpg",
@@ -93,7 +104,8 @@
         "artist": "Mary Cassatt",
         "date": "1878",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Little_Girl_in_a_Blue_Armchair"
+        "link": "https://en.wikipedia.org/wiki/Little_Girl_in_a_Blue_Armchair",
+        "thoughts": ""
     },
     {
         "file": "self-portrait-bracquemond.jpg",
@@ -101,7 +113,8 @@
         "artist": "Marie Bracquemond",
         "date": "1870",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Marie_Bracquemond#"
+        "link": "https://en.wikipedia.org/wiki/Marie_Bracquemond#",
+        "thoughts": ""
     },
     {
         "file": "summer-afternoon.jpg",
@@ -109,7 +122,8 @@
         "artist": "Jean-Leon Gerome",
         "date": "1895",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Jean-L%C3%A9on_G%C3%A9r%C3%B4me"
+        "link": "https://en.wikipedia.org/wiki/Jean-L%C3%A9on_G%C3%A9r%C3%B4me",
+        "thoughts": ""
     },
     {
         "file": "pollice-verso.jpg",
@@ -117,7 +131,8 @@
         "artist": "Jean-Leon Gerome",
         "date": "1872",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Pollice_Verso_(G%C3%A9r%C3%B4me)#"
+        "link": "https://en.wikipedia.org/wiki/Pollice_Verso_(G%C3%A9r%C3%B4me)#",
+        "thoughts": ""
     },
     {
         "file": "two-ballet-dancers.jpg",
@@ -125,7 +140,8 @@
         "artist": "Edgar Degas",
         "date": "1879",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Edgar_Degas"
+        "link": "https://en.wikipedia.org/wiki/Edgar_Degas",
+        "thoughts": ""
     },
     {
         "file": "the-boat-at-giverny.jpg",
@@ -133,7 +149,8 @@
         "artist": "Claude Monet",
         "date": "1877",
         "medium": "oil on canvas",
-        "link": "https://www.claude-monet.com/the-boat-at-giverny.jsp"
+        "link": "https://www.claude-monet.com/the-boat-at-giverny.jsp",
+        "thoughts": ""
     },
     {
         "file": "walk-on-the-beach.jpg",
@@ -141,7 +158,8 @@
         "artist": "Joaquin Sorolla",
         "date": "1909",
         "medium": "oil on canvas",
-        "link": "https://en.wikipedia.org/wiki/Walk_on_the_Beach"
+        "link": "https://en.wikipedia.org/wiki/Walk_on_the_Beach",
+        "thoughts": ""
     },
     {
         "file": "the-dance-lesson.jpg",
@@ -149,7 +167,8 @@
         "artist": "Edgar Degas",
         "date": "1879",
         "medium": "oil on canvas",
-        "link": "https://www.nga.gov/artworks/93045-dance-lesson"
+        "link": "https://www.nga.gov/artworks/93045-dance-lesson",
+        "thoughts": ""
     },
     {
         "file": "angel.jpg",
@@ -157,7 +176,7 @@
         "artist": "Abbott Handerson Thayer",
         "date": "1887",
         "medium": "oil on canvas",
-        "link": "https://americanart.si.edu/artwork/angel-23922"
+        "link": "https://americanart.si.edu/artwork/angel-23922",
+        "thoughts": "I first saw this painting at the Smithsonian American Art Museum and Portrait Gallery in Washington, D.C. while visiting my family in Virginia. Seeing a painting like this or paintings in general in person is so incredibly different than viewing online. The first thing that I saw when entering the room that this was displayed in was the other painting of an angel on a rock that was absolutely massive and covered almost the entire wall with this one being in the corner. Honestly, the main reason I like this painting so much is how ethereal and beautiful it is along with the shape of her wings. They're quite unlike any other depictions of angels and they sit in the frame in such a way that they leave a calm kind of negative space around her."
     }
 ]
-

@@ -63,11 +63,12 @@ body {
 /* BOXES */
 .box {
     /* background: url("/assets/bgs/bg(0).png"); */
-    background-color: rgba(7, 22, 34, 0.8);
+    background-color: var(--homepage-box-color);
     border: 2px white dotted;
 }
 
 .box-header {
+    font-size: 1.5rem;
     border-bottom: 1px solid white;
     margin: 8px 8px 6px 8px;
 }
