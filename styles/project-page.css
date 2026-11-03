@@ -1,5 +1,7 @@
 body {
-    background: var(--bg-color);
+    background-color: var(--project-page-bg-color);
+    background-image: var(--project-page-bg-img);
+    background-repeat: repeat;
     color: white;
     image-rendering: auto;
 }

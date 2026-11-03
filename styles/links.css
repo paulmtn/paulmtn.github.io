@@ -15,6 +15,10 @@
     padding-bottom: 16px;
 }
 
+.header a {
+    text-decoration: underline;
+}
+
 body {
     background-image: var(--links-bg-img);
     background-repeat: repeat;
@@ -25,23 +29,34 @@ body {
 
 
 .box {
-    background-color: rgba(7, 22, 34, 0.8);
+    background-color: var(--links-box-color);
     border: 2px white dotted;
     margin-bottom: 32px;
 }
 
 .box-header {
-    font-size: 2rem;
+    font-size: 1.7rem;
     border-bottom: 1px solid white;
     margin: 8px 8px 6px 8px;
 }
 
-.text-button:hover {
-    background: rgba(255, 255, 255, 0.15);
+h2 {
+    font-size: 1.25rem;
+    margin-left: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.buttons img:hover {
-    /* Make outline instead of bg*/
-    background: rgba(255, 255, 255, 0.15);
+ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-top: 4px;
+}
+
+.link {
+    text-decoration: underline;
 }
 

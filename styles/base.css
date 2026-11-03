@@ -12,32 +12,45 @@
 
 
 :root {
+    /* Everything */
+    --link-color: #b6e0d2;
+
     /* Homepage */
     --homepage-box-color: #071622CC;
-    --primary: #125e50;
-    --homepage-bg: url("/assets/bgs/carnation-lily-lily-rose.png");
+    --homepage-bg: url("/assets/bgs/carnation-lily-lily-rose.jpeg");
 
     /* About Me */
-    --side-img: url("/assets/bgs/cathedral.png");
-    --bg-pattern: url("/assets/bgs/about-me-bg2.png");
+    --about-me-text-color: white;
+    --about-me-side-img: url("/assets/bgs/cathedral.png");
+    --about-me-bg-img: url("/assets/bgs/about-me-bg.png");
+    --about-me-bg-color: #66857b;
 
     /* Art Gallery */
     --gallery-bg-color: #133831;
     --gallery-bg-img: url("/assets/bgs/gallery-pattern.png");
     --gallery-text-color: white;
+    --gallery-painting-border-color: white;
+    --gallery-painting-bg-color: #164f4470;
 
     /* Projects */
     --projects-bg-img: url("/assets/bgs/projects-pattern.png");
     --projects-bg-color: #212c3b;
     --projects-caption-color: white;
-    --projects-project-border: white;
+    --projects-project-border-color: white;
     --projects-project-bg-color: #333f4f70;
     --projects-project-box-shadow-color: #071221;
 
     /* Project Page */
+    --project-page-bg-img: url("/assets/bgs/projects-pattern.png");
+    --project-page-bg-color: #212c3b;
 
     /* Links */
     --links-bg-img: url("/assets/bgs/bird-william-morris.png");
+    --links-box-color: #16102bC0;
+
+    /* Neighbors */
+    --neighbors-bg-img: url("/assets/bgs/trees-bg.png");
+    --neighbors-box-color: #122b23D0;
 }
 
 * {
@@ -59,6 +72,11 @@ body {
 }
 
 a, a:visited {
-    color: white;
+    color: var(--link-color);
     text-decoration: none;
+}
+
+.header a,
+.header a:visited {
+    color: white;
 }

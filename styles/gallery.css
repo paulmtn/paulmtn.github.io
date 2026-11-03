@@ -39,11 +39,19 @@ body {
 .painting {
     break-inside: avoid;
     margin-bottom: 20px;
+    padding: 4px;
+    border: 1px dotted var(--gallery-painting-border-color);
+    background-color: var(--gallery-painting-bg-color);
 }
 
 .painting img {
     width: 100%;
     display: block;
+}
+
+.painting .caption {
+    line-height: 1;
+    margin: 4px 0px;
 }
 
 .gallery {

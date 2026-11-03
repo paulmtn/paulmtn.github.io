@@ -15,15 +15,26 @@
     padding-bottom: 16px;
 }
 
+.header a {
+    text-decoration: underline;
+}
+
 body {
-    background: var(--bg-color);
-    color: white;
-    image-rendering: auto;
+    background-image: var(--neighbors-bg-img);
+    background-size: auto 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    min-height: 100vh;
+    image-rendering: pixelated;
+    padding: 0px;
+    margin: 0px;
+    display: flow-root;
 }
 
 
 .box {
-    background-color: rgba(7, 22, 34, 0.8);
+    background-color: var(--neighbors-box-color);
     border: 2px white dotted;
     margin-bottom: 32px;
 }
