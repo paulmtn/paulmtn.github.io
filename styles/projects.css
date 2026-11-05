@@ -55,6 +55,7 @@ body {
 
 .project img {
     width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -71,4 +72,3 @@ body {
     flex-direction: column;
     gap: 2rem;
 }
-

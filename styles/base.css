@@ -1,19 +1,55 @@
 @font-face {
-    font-family: "retrobyte";
-    src: url("/fonts/RetroByte.ttf") format("truetype");
+    font-family: "cordata-ppc-400";
+    src: url("/fonts/Px437_Cordata_PPC-400.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: "14";
+    src: url("/fonts/Px437_DOS-V_re_ANK30.ttf") format("truetype");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "starcrush";
+    font-family: "15";
+    src: url("/fonts/Px437_DOS-V_re_JPN24.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "16";
+    src: url("/fonts/Px437_DOS-V_re_JPN30.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "21";
+    src: url("/fonts/Px437_IBM_PS-55_re.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "31";
+    src: url("/fonts/PxPlus_Cordata_PPC-400 - Copy.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "star-crush";
     src: url("/fonts/Star Crush.ttf") format("truetype");
     font-display: swap;
 }
 
 
+/* 
+* 11, 14, 15, 16, 21, 31
+*/
+
 :root {
     /* Everything */
     --link-color: #b6e0d2;
+    --font: "cordata-ppc-400";
+    --font-size: 1.25rem;
+    --header-font: "star-crush";
 
     /* Homepage */
     --homepage-box-color: #071622CC;
@@ -58,17 +94,19 @@
 }
 
 html {
-    font-size: 18px;
     color: white;
     overscroll-behavior: none;
 }
 
 body {
-    font-family: "starcrush", monospace;
-    font-size: 1rem;
+    font-family: var(--font);
+    font-size: var(--font-size);
     margin: 0;
     image-rendering: pixelated;
+}
 
+.box-header, .header, h1, h2{
+    font-family: var(--header-font);
 }
 
 a, a:visited {
