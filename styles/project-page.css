@@ -7,15 +7,15 @@ body {
 }
 
 .project-page {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 2rem auto;
     padding: 0 5vw;
 }
 
 .header {
     margin: 16px auto; 
-    width: calc(900px - 10vw);
-    max-width: calc(900px - 10vw);
+    width: calc(1000px - 10vw);
+    max-width: calc(1000px - 10vw);
     font-size: 36px;
     border-bottom: 2px dotted white;
     padding-bottom: 16px;
@@ -40,12 +40,13 @@ body {
 
 .project-page img {
     width: 100%;
+    height: auto;
     display: block;
 }
 
 .figure-caption {
-    font-size: 0.9rem;
-    opacity: 0.7;
+    font-size: 0.95rem;
+    opacity: 0.8;
     margin-top: 0.5rem;
 }
 
